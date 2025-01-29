@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*  You can also use percentages for this - 25% 25% 25% 25% . FR is a fractional unit */
+    gap: 1rem;
+  /*  margin: 0 3rem 0 3rem;  /* TRouBLe - top, right, bottom, left for margin */
+    width: 80%;
+    margin: 0 auto; /* Auto centers it, puts margin til you can't anymore */
+}
+
+body {
+    background-color: rgb(141, 0, 0);
+}
+
+section {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
